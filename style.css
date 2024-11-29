@@ -1,0 +1,157 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ nav {
+     background-color: #FFF0D1;
+   
+ }
+
+ .logo {
+     width: 150px;
+ }
+
+
+ .links-nav {
+     text-decoration: none;
+     color: #795757;
+
+
+ }
+
+ .links-nav:hover {
+     text-decoration: underline;
+     color: #664343;
+
+ }
+
+ .welcome {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     padding-top: 4vh;
+
+
+
+ }
+
+ .welcome-text-head {
+     font-family: "Dancing Script", cursive;
+     color: #795757;
+ }
+
+ .welcome-text-body {
+
+     font-family: "Dancing Script", cursive;
+     color: #795757;
+     line-height: 1;
+     padding-top: 2vh;
+
+ }
+
+ .welcome-text-end {
+     font-family: "Dancing Script", cursive;
+     color: #795757;
+     line-height: 1;
+     padding-top: 2vh;
+     padding-bottom: 2vh;
+
+ }
+
+ .home-img {
+    
+        background-image: url('./img/pexels-photo-9111761.webp');
+        background-attachment: fixed;
+        background-size: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height:100vh;
+   
+
+        
+ }
+
+ footer{
+    background-color: #A59D84;
+    display: flex;
+    justify-content:space-around;
+    
+    padding-bottom: 10vh;
+ }
+ .footer-div1{
+   
+    align-items: center;
+   
+
+ }
+ .footer-div1-links{ 
+    text-decoration: none;
+    color:#FFF0D1;
+
+ }
+ .footer-div1-links:hover{ 
+    text-decoration: underline;
+    color:#FFF0D1;
+
+ }
+ .logo1{
+    width: 200px;
+   
+ }
+ .foot-img{
+    width: 100px;
+
+ }
+.footer-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+ 
+}
+.foot-link{
+    text-decoration: none;
+    color:#FFF0D1;
+
+}
+.foot-link:hover{
+    padding-left:2px ;
+    color:#FFF0D1;
+    text-decoration: underline;
+   
+
+
+}
+
+/* scrollbar */
+html {
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 5px;
+
+}
+
+::-webkit-scrollbar-track {
+    background-color: aliceblue;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #795757;
+    border-radius: 5px;
+}
+ 
+
+
+
+
+
+
+
